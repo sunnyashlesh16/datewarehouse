@@ -1,0 +1,31 @@
+[2024-10-25T07:16:12.722+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-25T07:16:12.777+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: schema_dag.submit_schema scheduled__2024-10-22T00:00:00+00:00 [queued]>
+[2024-10-25T07:16:12.810+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: schema_dag.submit_schema scheduled__2024-10-22T00:00:00+00:00 [queued]>
+[2024-10-25T07:16:12.813+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-25T07:16:12.867+0000] {taskinstance.py:2888} INFO - Executing <Task(PinotSchemaSubmitOperator): submit_schema> on 2024-10-22 00:00:00+00:00
+[2024-10-25T07:16:12.924+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=116) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-25T07:16:12.928+0000] {standard_task_runner.py:72} INFO - Started process 201 to run task
+[2024-10-25T07:16:12.959+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'schema_dag', 'submit_schema', 'scheduled__2024-10-22T00:00:00+00:00', '--job-id', '219', '--raw', '--subdir', 'DAGS_FOLDER/schema_dag.py', '--cfg-path', '/tmp/tmplkbhoifx']
+[2024-10-25T07:16:12.978+0000] {standard_task_runner.py:105} INFO - Job 219: Subtask submit_schema
+[2024-10-25T07:16:13.366+0000] {task_command.py:467} INFO - Running <TaskInstance: schema_dag.submit_schema scheduled__2024-10-22T00:00:00+00:00 [running]> on host d993b9f280d5
+[2024-10-25T07:16:13.971+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='saisunny' AIRFLOW_CTX_DAG_ID='schema_dag' AIRFLOW_CTX_TASK_ID='submit_schema' AIRFLOW_CTX_EXECUTION_DATE='2024-10-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-22T00:00:00+00:00'
+[2024-10-25T07:16:13.996+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-25T07:16:14.025+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-25T07:16:14.041+0000] {logging_mixin.py:190} INFO - Current task name:submit_schema state:running start_date:2024-10-25 07:16:12.779468+00:00
+[2024-10-25T07:16:14.175+0000] {logging_mixin.py:190} INFO - Dag name:schema_dag and current dag run status:running
+[2024-10-25T07:16:14.200+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-25T07:16:14.464+0000] {pinot_schema_operator.py:30} INFO - /opt/***/dags/schemas/account_dim_schema.json Schema Successfully Submitted To Apache Pinot!
+[2024-10-25T07:16:14.644+0000] {pinot_schema_operator.py:30} INFO - /opt/***/dags/schemas/branch_dim_schema.json Schema Successfully Submitted To Apache Pinot!
+[2024-10-25T07:16:14.725+0000] {pinot_schema_operator.py:30} INFO - /opt/***/dags/schemas/customer_dim_schema.json Schema Successfully Submitted To Apache Pinot!
+[2024-10-25T07:16:14.875+0000] {pinot_schema_operator.py:30} INFO - /opt/***/dags/schemas/transaction_facts_schema.json Schema Successfully Submitted To Apache Pinot!
+[2024-10-25T07:16:14.965+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-25T07:16:14.968+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=schema_dag, task_id=submit_schema, run_id=scheduled__2024-10-22T00:00:00+00:00, execution_date=20241022T000000, start_date=20241025T071612, end_date=20241025T071614
+[2024-10-25T07:16:15.053+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-25T07:16:15.055+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-25T07:16:15.058+0000] {logging_mixin.py:190} INFO - Dag name:schema_dag queued_at:2024-10-25 07:14:44.257853+00:00
+[2024-10-25T07:16:15.062+0000] {logging_mixin.py:190} INFO - Task hostname:d993b9f280d5 operator:PinotSchemaSubmitOperator
+[2024-10-25T07:16:15.099+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-25T07:16:15.192+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-25T07:16:15.208+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

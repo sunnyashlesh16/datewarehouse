@@ -28,7 +28,7 @@ postcodes= ["EC1A 1BB", "M1 1AE", "B1 1AA", "G1 1AA", "EH1 1AA"]
 # Function to generate random data
 # Function to generate random branch data
 def generate_random_data(row_num):
-    branch_id = f"B{row_num:04d}"
+    branch_id = f"B{row_num:05d}"
     branch_name = f"Branch {row_num}"
     branch_address = f"{random.randint(a=1, b=999)} {random.choice(['High St', 'King St', 'Queen St', 'Church Rd', 'Church Street'])}"
     city = random.choice(cities)
@@ -73,8 +73,8 @@ def generate_branch_dim_data():
         "branch_name": branch_names,
         "branch_address": branch_addresses,
         "city": cities_list,
-        "region": regions_list,
-        "postcode": postcodes_list,
+        "state": regions_list,
+        "zipcode": postcodes_list,
         "opening_date": opening_dates
     })
 

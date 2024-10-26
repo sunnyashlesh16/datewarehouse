@@ -39,7 +39,7 @@
     "transformConfigs": [],
     "continueOnError": true,
     "rowTimeValueCheck": true,
-    "segmentTimeValueCheck": "false"
+    "segmentTimeValueCheck": false
   },
   "metadata": {
     "customConfigs": {}

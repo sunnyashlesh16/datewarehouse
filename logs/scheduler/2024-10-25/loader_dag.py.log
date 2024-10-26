@@ -1,0 +1,294 @@
+[2024-10-25T07:14:42.247+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:14:42.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:14:42.299+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:14:42.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:14:42.504+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:14:42.875+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:14:42.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:14:44.080+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:14:44.079+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-25T07:14:44.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 2.610 seconds
+[2024-10-25T07:16:01.335+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:16:01.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:16:01.374+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:16:01.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:16:02.536+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:16:02.710+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:16:02.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:16:02.892+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:16:02.891+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:16:02.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 1.720 seconds
+[2024-10-25T07:16:33.221+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:16:33.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:16:33.230+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:16:33.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:16:33.281+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:16:33.322+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:16:33.322+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:16:33.365+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:16:33.365+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:16:33.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.199 seconds
+[2024-10-25T07:17:04.304+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:17:04.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:17:04.310+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:17:04.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:17:04.347+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:17:04.386+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:17:04.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:17:04.432+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:17:04.431+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:17:04.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.173 seconds
+[2024-10-25T07:17:35.288+0000] {processor.py:186} INFO - Started process (PID=463) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:17:35.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:17:35.296+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:17:35.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:17:35.344+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:17:35.388+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:17:35.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:17:35.447+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:17:35.446+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:17:35.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.210 seconds
+[2024-10-25T07:18:05.653+0000] {processor.py:186} INFO - Started process (PID=532) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:18:05.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:18:05.659+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:18:05.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:18:05.690+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:18:05.728+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:18:05.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:18:05.772+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:18:05.771+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:18:05.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.161 seconds
+[2024-10-25T07:18:36.227+0000] {processor.py:186} INFO - Started process (PID=600) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:18:36.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:18:36.233+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:18:36.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:18:36.302+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:18:36.332+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:18:36.331+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:18:36.365+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:18:36.365+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:18:36.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.174 seconds
+[2024-10-25T07:19:07.254+0000] {processor.py:186} INFO - Started process (PID=669) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:19:07.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:19:07.260+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:19:07.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:19:07.293+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:19:07.321+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:19:07.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:19:07.361+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:19:07.360+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:19:07.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.146 seconds
+[2024-10-25T07:19:37.959+0000] {processor.py:186} INFO - Started process (PID=738) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:19:37.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:19:37.966+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:19:37.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:19:38.008+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:19:38.033+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:19:38.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:19:38.062+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:19:38.062+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:19:38.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.140 seconds
+[2024-10-25T07:20:08.268+0000] {processor.py:186} INFO - Started process (PID=806) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:20:08.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:20:08.274+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:20:08.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:20:08.308+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:20:08.331+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:20:08.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:20:08.354+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:20:08.353+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:20:08.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.118 seconds
+[2024-10-25T07:20:38.607+0000] {processor.py:186} INFO - Started process (PID=875) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:20:38.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:20:38.613+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:20:38.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:20:38.654+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:20:38.684+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:20:38.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:20:38.714+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:20:38.714+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:20:38.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.154 seconds
+[2024-10-25T07:21:08.970+0000] {processor.py:186} INFO - Started process (PID=944) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:21:08.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:21:08.976+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:21:08.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:21:09.017+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:21:09.048+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:21:09.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:21:09.068+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:21:09.068+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:21:09.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.128 seconds
+[2024-10-25T07:21:39.515+0000] {processor.py:186} INFO - Started process (PID=1013) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:21:39.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:21:39.520+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:21:39.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:21:39.561+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:21:39.587+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:21:39.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:21:39.616+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:21:39.616+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:21:39.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.137 seconds
+[2024-10-25T07:22:10.315+0000] {processor.py:186} INFO - Started process (PID=1082) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:22:10.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:22:10.324+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:22:10.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:22:10.404+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:22:10.452+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:22:10.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:22:10.509+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:22:10.509+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:22:10.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.240 seconds
+[2024-10-25T07:22:41.284+0000] {processor.py:186} INFO - Started process (PID=1151) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:22:41.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:22:41.288+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:22:41.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:22:41.319+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:22:41.344+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:22:41.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:22:41.368+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:22:41.368+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:22:41.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.108 seconds
+[2024-10-25T07:23:11.873+0000] {processor.py:186} INFO - Started process (PID=1220) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:23:11.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:23:11.880+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:23:11.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:23:11.919+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:23:11.948+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:23:11.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:23:11.983+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:23:11.983+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:23:12.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.149 seconds
+[2024-10-25T07:23:42.757+0000] {processor.py:186} INFO - Started process (PID=1289) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:23:42.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:23:42.763+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:23:42.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:23:42.807+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:23:42.836+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:23:42.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:23:42.884+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:23:42.884+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:23:42.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.178 seconds
+[2024-10-25T07:24:13.536+0000] {processor.py:186} INFO - Started process (PID=1358) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:24:13.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:24:13.540+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:24:13.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:24:13.572+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:24:13.596+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:24:13.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:24:13.630+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:24:13.629+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:24:13.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.156 seconds
+[2024-10-25T07:24:44.201+0000] {processor.py:186} INFO - Started process (PID=1427) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:24:44.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:24:44.205+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:24:44.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:24:44.239+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:24:44.263+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:24:44.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:24:44.287+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:24:44.286+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:24:44.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.115 seconds
+[2024-10-25T07:25:15.093+0000] {processor.py:186} INFO - Started process (PID=1496) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:25:15.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:25:15.097+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:25:15.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:25:15.140+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:25:15.158+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:25:15.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:25:15.176+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:25:15.176+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:25:15.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.109 seconds
+[2024-10-25T07:25:45.406+0000] {processor.py:186} INFO - Started process (PID=1565) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:25:45.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:25:45.410+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:25:45.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:25:45.441+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:25:45.463+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:25:45.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:25:45.485+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:25:45.484+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:25:45.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.102 seconds
+[2024-10-25T07:26:15.952+0000] {processor.py:186} INFO - Started process (PID=1633) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:26:15.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:26:15.956+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:26:15.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:26:15.991+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:26:16.018+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:26:16.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:26:16.043+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:26:16.043+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:26:16.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.196 seconds
+[2024-10-25T07:26:47.194+0000] {processor.py:186} INFO - Started process (PID=1703) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:26:47.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:26:47.200+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:26:47.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:26:47.232+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:26:47.262+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:26:47.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:26:47.297+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:26:47.297+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:26:47.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.139 seconds
+[2024-10-25T07:27:17.547+0000] {processor.py:186} INFO - Started process (PID=1772) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:27:17.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:27:17.553+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:27:17.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:27:17.596+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:27:17.713+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:27:17.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:27:17.785+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:27:17.784+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:27:17.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.351 seconds
+[2024-10-25T07:27:48.995+0000] {processor.py:186} INFO - Started process (PID=1841) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:27:48.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:27:49.001+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:27:49.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:27:49.037+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:27:49.057+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:27:49.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:27:49.085+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:27:49.085+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:27:49.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.136 seconds
+[2024-10-25T07:28:19.248+0000] {processor.py:186} INFO - Started process (PID=1910) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:28:19.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:28:19.254+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:28:19.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:28:19.298+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:28:19.324+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:28:19.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:28:19.352+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:28:19.352+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:28:19.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.136 seconds
+[2024-10-25T07:28:49.542+0000] {processor.py:186} INFO - Started process (PID=1979) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:28:49.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:28:49.546+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:28:49.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:28:49.590+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:28:49.639+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:28:49.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:28:49.664+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:28:49.664+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:28:49.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.155 seconds
+[2024-10-25T07:29:19.797+0000] {processor.py:186} INFO - Started process (PID=2048) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:29:19.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:29:19.801+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:29:19.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:29:19.846+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:29:19.866+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:29:19.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:29:19.885+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:29:19.885+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:29:19.958+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.166 seconds
+[2024-10-25T07:29:50.333+0000] {processor.py:186} INFO - Started process (PID=2117) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:29:50.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:29:50.337+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:29:50.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:29:50.371+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:29:50.397+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:29:50.397+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:29:50.426+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:29:50.426+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:29:50.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.124 seconds
+[2024-10-25T07:30:20.625+0000] {processor.py:186} INFO - Started process (PID=2185) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:30:20.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:30:20.631+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:30:20.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:30:20.671+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:30:20.696+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:30:20.696+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:30:20.723+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:30:20.723+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:30:20.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.126 seconds
+[2024-10-25T07:30:51.367+0000] {processor.py:186} INFO - Started process (PID=2253) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:30:51.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:30:51.372+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:30:51.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:30:51.413+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:30:51.436+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:30:51.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:30:51.465+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:30:51.464+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:30:51.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.131 seconds
+[2024-10-25T07:31:21.643+0000] {processor.py:186} INFO - Started process (PID=2322) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:31:21.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:31:21.651+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:31:21.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:31:21.702+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:31:21.825+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:31:21.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:31:21.867+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:31:21.866+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:31:21.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.273 seconds
+[2024-10-25T07:31:52.755+0000] {processor.py:186} INFO - Started process (PID=2391) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:31:52.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:31:52.760+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:31:52.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:31:52.795+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:31:52.818+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:31:52.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:31:52.841+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:31:52.841+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:31:52.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.119 seconds
+[2024-10-25T07:32:44.256+0000] {processor.py:186} INFO - Started process (PID=2417) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:32:44.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:32:44.266+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:32:44.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:32:44.338+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:32:44.404+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:32:44.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:32:44.460+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:32:44.459+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:32:44.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.263 seconds
+[2024-10-25T07:33:14.965+0000] {processor.py:186} INFO - Started process (PID=2486) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:33:14.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:33:14.968+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:33:14.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:33:15.004+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:33:15.034+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:33:15.034+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:33:15.228+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:33:15.228+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:33:15.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.292 seconds
+[2024-10-25T07:33:45.483+0000] {processor.py:186} INFO - Started process (PID=2555) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:33:45.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:33:45.487+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:33:45.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:33:45.526+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:33:45.550+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:33:45.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:33:45.579+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:33:45.579+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:33:45.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.332 seconds
+[2024-10-25T07:34:16.057+0000] {processor.py:186} INFO - Started process (PID=2624) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:34:16.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:34:16.060+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:34:16.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:34:16.096+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:34:16.113+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:34:16.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:34:16.132+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:34:16.132+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:34:16.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.253 seconds
+[2024-10-25T07:34:47.254+0000] {processor.py:186} INFO - Started process (PID=2693) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:34:47.255+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:34:47.257+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:34:47.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:34:47.309+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:34:47.339+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:34:47.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:34:47.374+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:34:47.374+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:34:47.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.167 seconds
+[2024-10-25T07:35:18.250+0000] {processor.py:186} INFO - Started process (PID=2762) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:35:18.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:35:18.254+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:35:18.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:35:18.291+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:35:18.312+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:35:18.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:35:18.337+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:35:18.337+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:35:18.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.121 seconds
+[2024-10-25T07:37:20.744+0000] {processor.py:186} INFO - Started process (PID=2836) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:37:20.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:37:20.799+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:37:20.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:37:21.072+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:37:22.713+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:37:22.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:37:22.848+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:37:22.847+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:37:22.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 1.748 seconds
+[2024-10-25T07:37:51.549+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:37:51.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:37:51.559+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:37:51.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:37:51.607+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:37:52.081+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:37:52.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:37:52.119+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:37:52.119+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:37:52.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.622 seconds
+[2024-10-25T07:38:22.464+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:38:22.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/loader_dag.py for tasks to queue
+[2024-10-25T07:38:22.473+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:38:22.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:38:22.522+0000] {processor.py:925} INFO - DAG(s) 'dimension_batch_ingestion' retrieved from /opt/airflow/dags/loader_dag.py
+[2024-10-25T07:38:22.565+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:38:22.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-25T07:38:22.613+0000] {logging_mixin.py:190} INFO - [2024-10-25T07:38:22.613+0000] {dag.py:4180} INFO - Setting next_dagrun for dimension_batch_ingestion to 2024-10-25 00:00:00+00:00, run_after=2024-10-26 00:00:00+00:00
+[2024-10-25T07:38:22.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/loader_dag.py took 0.196 seconds

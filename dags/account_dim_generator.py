@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 # Define the start date of the DAG
-start_date = datetime(year=2024, month=10, day=15)
+start_date = datetime(year=2024, month=10, day=16)
 
 # Define default arguments for the DAG
 default_args = {
@@ -18,14 +18,6 @@ default_args = {
 # Set parameters for the task
 num_rows = 50
 output_file = './account_dim_large_data.csv'
-
-# Variables to store data
-account_ids = []
-account_types = []
-statuses = []
-customer_ids = []
-balances = []
-opening_dates = []
 
 # Function to generate random data
 def generate_random_data(row_num):
@@ -43,7 +35,9 @@ def generate_random_data(row_num):
 
 # Function to generate the full dataset
 def generate_account_dim_data():
+    account_ids, account_types, statuses, customer_ids, balances, opening_dates = [], [], [], [], [], []
     row_num = 1
+
     while row_num <= num_rows:
         account_id, account_type, status, customer_id, balance, opening_date_millis = generate_random_data(row_num)
 
@@ -70,14 +64,12 @@ def generate_account_dim_data():
     print(f'CSV file {output_file} with {num_rows} rows has been generated successfully!')
 
 # Define the DAG
-with DAG(
-    'account_dim_generator',
+with DAG('account_dim_generator',
     default_args=default_args,
     description='DAG to generate random account data and output to CSV',
     schedule_interval=timedelta(days=1),
     start_date=start_date,
-    tags=['schema'],
-) as dag:
+    tags=['schema']) as dag:
 
     # Define the start task
     start = EmptyOperator(task_id='start_task')

@@ -1,0 +1,35 @@
+[2024-10-21T05:32:41.469+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-21T05:32:41.525+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dimension_batch_ingestion.ingest_customer_data manual__2024-10-21T05:32:38.060613+00:00 [queued]>
+[2024-10-21T05:32:41.560+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dimension_batch_ingestion.ingest_customer_data manual__2024-10-21T05:32:38.060613+00:00 [queued]>
+[2024-10-21T05:32:41.562+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-21T05:32:41.614+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): ingest_customer_data> on 2024-10-21 05:32:38.060613+00:00
+[2024-10-21T05:32:41.642+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=319) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-21T05:32:41.653+0000] {standard_task_runner.py:72} INFO - Started process 323 to run task
+[2024-10-21T05:32:41.653+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dimension_batch_ingestion', 'ingest_customer_data', 'manual__2024-10-21T05:32:38.060613+00:00', '--job-id', '146', '--raw', '--subdir', 'DAGS_FOLDER/loader_dag.py', '--cfg-path', '/tmp/tmpdiqmt1th']
+[2024-10-21T05:32:41.660+0000] {standard_task_runner.py:105} INFO - Job 146: Subtask ingest_customer_data
+[2024-10-21T05:32:42.123+0000] {task_command.py:467} INFO - Running <TaskInstance: dimension_batch_ingestion.ingest_customer_data manual__2024-10-21T05:32:38.060613+00:00 [running]> on host b5fa23871e33
+[2024-10-21T05:32:42.392+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='saisunny' AIRFLOW_CTX_DAG_ID='dimension_batch_ingestion' AIRFLOW_CTX_TASK_ID='ingest_customer_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-21T05:32:38.060613+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-21T05:32:38.060613+00:00'
+[2024-10-21T05:32:42.401+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-21T05:32:42.403+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-21T05:32:42.405+0000] {logging_mixin.py:190} INFO - Current task name:ingest_customer_data state:running start_date:2024-10-21 05:32:41.526842+00:00
+[2024-10-21T05:32:42.407+0000] {logging_mixin.py:190} INFO - Dag name:dimension_batch_ingestion and current dag run status:running
+[2024-10-21T05:32:42.410+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-21T05:32:42.435+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-21T05:32:42.443+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -X POST -F file=@/opt/***/customer_dim_large_data.csv -H "Content-Type: multipart/form-data"  "http://pinot-controller:9000/ingestFromFile?tableNameWithType=customer_dim_OFFLINE&batchConfigMapStr=%7B%22inputFormat%22%3A%22csv%22%2C%22recordReader.prop.delimiter%22%3A%22%2C%22%7D"']
+[2024-10-21T05:32:42.496+0000] {subprocess.py:86} INFO - Output:
+[2024-10-21T05:32:42.634+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-10-21T05:32:42.639+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-10-21T05:32:51.766+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8465    0     0  100  8465      0   7034  0:00:01  0:00:01 --:--:--  7042100  8465    0     0  100  8465      0   3838  0:00:02  0:00:02 --:--:--  3840100  8465    0     0  100  8465      0   2640  0:00:03  0:00:03 --:--:--  2641100  8465    0     0  100  8465      0   2011  0:00:04  0:00:04 --:--:--  2012100  8465    0     0  100  8465      0   1625  0:00:05  0:00:05 --:--:--  1625100  8465    0     0  100  8465      0   1363  0:00:06  0:00:06 --:--:--     0100  8465    0     0  100  8465      0   1173  0:00:07  0:00:07 --:--:--     0100  8465    0     0  100  8465      0   1029  0:00:08  0:00:08 --:--:--     0100  8576  100   111  100  8465     12    927  0:00:09  0:00:09 --:--:--    22100  8576  100   111  100  8465     12    926  0:00:09  0:00:09 --:--:--    28
+[2024-10-21T05:32:51.784+0000] {subprocess.py:93} INFO - {"status":"Successfully ingested file into table: customer_dim_OFFLINE as segment: customer_dim_1729488763269"}
+[2024-10-21T05:32:51.786+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-21T05:32:51.927+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-21T05:32:51.931+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dimension_batch_ingestion, task_id=ingest_customer_data, run_id=manual__2024-10-21T05:32:38.060613+00:00, execution_date=20241021T053238, start_date=20241021T053241, end_date=20241021T053251
+[2024-10-21T05:32:51.974+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-21T05:32:51.976+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-21T05:32:51.979+0000] {logging_mixin.py:190} INFO - Dag name:dimension_batch_ingestion queued_at:2024-10-21 05:32:38.120712+00:00
+[2024-10-21T05:32:51.981+0000] {logging_mixin.py:190} INFO - Task hostname:b5fa23871e33 operator:BashOperator
+[2024-10-21T05:32:52.047+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-21T05:32:52.161+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-21T05:32:52.177+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

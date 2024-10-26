@@ -1,0 +1,118 @@
+[2024-10-25T07:16:19.562+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-25T07:16:19.621+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2024-10-22T00:00:00+00:00 [queued]>
+[2024-10-25T07:16:19.652+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2024-10-22T00:00:00+00:00 [queued]>
+[2024-10-25T07:16:19.658+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-25T07:16:19.712+0000] {taskinstance.py:2888} INFO - Executing <Task(KafkaProduceOperator): generate_txn_fact_data> on 2024-10-22 00:00:00+00:00
+[2024-10-25T07:16:19.736+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=129) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-25T07:16:19.741+0000] {standard_task_runner.py:72} INFO - Started process 205 to run task
+[2024-10-25T07:16:19.749+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'transaction_facts_generator', 'generate_txn_fact_data', 'scheduled__2024-10-22T00:00:00+00:00', '--job-id', '221', '--raw', '--subdir', 'DAGS_FOLDER/transaction_facts_generator.py', '--cfg-path', '/tmp/tmpg41s_btz']
+[2024-10-25T07:16:19.752+0000] {standard_task_runner.py:105} INFO - Job 221: Subtask generate_txn_fact_data
+[2024-10-25T07:16:19.916+0000] {task_command.py:467} INFO - Running <TaskInstance: transaction_facts_generator.generate_txn_fact_data scheduled__2024-10-22T00:00:00+00:00 [running]> on host d993b9f280d5
+[2024-10-25T07:16:20.241+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='saisunny' AIRFLOW_CTX_DAG_ID='transaction_facts_generator' AIRFLOW_CTX_TASK_ID='generate_txn_fact_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-22T00:00:00+00:00'
+[2024-10-25T07:16:20.247+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-25T07:16:20.248+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-25T07:16:20.250+0000] {logging_mixin.py:190} INFO - Current task name:generate_txn_fact_data state:running start_date:2024-10-25 07:16:19.622992+00:00
+[2024-10-25T07:16:20.251+0000] {logging_mixin.py:190} INFO - Dag name:transaction_facts_generator and current dag run status:running
+[2024-10-25T07:16:20.253+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-25T07:16:20.260+0000] {conn.py:362} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.19.0.10', 9092)]>: connecting to kafka_broker:9092 [('172.19.0.10', 9092) IPv4]
+[2024-10-25T07:16:20.263+0000] {conn.py:957} INFO - Probing node bootstrap-0 broker version
+[2024-10-25T07:16:20.268+0000] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.19.0.10', 9092)]> returned error 111. Disconnecting.
+[2024-10-25T07:16:20.270+0000] {conn.py:673} ERROR - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.19.0.10', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2024-10-25T07:16:20.312+0000] {conn.py:362} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.19.0.10', 9092)]>: connecting to kafka_broker:9092 [('172.19.0.10', 9092) IPv4]
+[2024-10-25T07:16:20.315+0000] {conn.py:402} ERROR - Connect attempt to <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.19.0.10', 9092)]> returned error 111. Disconnecting.
+[2024-10-25T07:16:20.317+0000] {conn.py:673} ERROR - <BrokerConnection node_id=bootstrap-0 host=kafka_broker:9092 <connecting> [IPv4 ('172.19.0.10', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2024-10-25T07:16:20.320+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/plugins/kafka_operator.py", line 54, in execute
+    producer = KafkaProducer(
+               ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/kafka/producer/kafka.py", line 383, in __init__
+    client = self.config['kafka_client'](
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/kafka/client_async.py", line 234, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/kafka/client_async.py", line 902, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2024-10-25T07:16:20.359+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-10-25T07:16:20.360+0000] {logging_mixin.py:190} INFO - Task start:2024-10-25 07:16:19.622992+00:00 end:2024-10-25 07:16:20.356682+00:00 duration:0.73369
+[2024-10-25T07:16:20.362+0000] {logging_mixin.py:190} INFO - Task:<Task(KafkaProduceOperator): generate_txn_fact_data> dag:<DAG: transaction_facts_generator> dagrun:<DagRun transaction_facts_generator @ 2024-10-22 00:00:00+00:00: scheduled__2024-10-22T00:00:00+00:00, state:running, queued_at: 2024-10-25 07:14:43.754908+00:00. externally triggered: False>
+[2024-10-25T07:16:20.364+0000] {logging_mixin.py:190} INFO - Failure caused by NoBrokersAvailable
+[2024-10-25T07:16:20.365+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=transaction_facts_generator, task_id=generate_txn_fact_data, run_id=scheduled__2024-10-22T00:00:00+00:00, execution_date=20241022T000000, start_date=20241025T071619, end_date=20241025T071620
+[2024-10-25T07:16:20.400+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-25T07:16:20.406+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 221 for task generate_txn_fact_data (NoBrokersAvailable; 205)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/plugins/kafka_operator.py", line 54, in execute
+    producer = KafkaProducer(
+               ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/kafka/producer/kafka.py", line 383, in __init__
+    client = self.config['kafka_client'](
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/kafka/client_async.py", line 234, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/kafka/client_async.py", line 902, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2024-10-25T07:16:20.464+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-25T07:16:20.519+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-25T07:16:20.530+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
